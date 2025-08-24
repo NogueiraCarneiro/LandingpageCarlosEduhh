@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>carlos Eduardo - Tráfego Pago que Converte</title>
+  <meta name="description" content="Estratégias de tráfego pago personalizadas para aumentar suas vendas. Agende sua consultoria gratuita agora!">
+  
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+  
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css" />
+  
+  <!-- Google Analytics (substitua GA_MEASUREMENT_ID) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID');
+  </script>
+  
+  <!-- Meta Pixel (substitua PIXEL_ID) -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'PIXEL_ID');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none" 
+         src="https://www.facebook.com/tr?id=PIXEL_ID&ev=PageView&noscript=1"/>
+  </noscript>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">Carlos Eduardo</div>
+      <nav class="nav">
+        <a href="#home">Início</a>
+        <a href="#services">Serviços</a>
+        <a href="#testimonials">Depoimentos</a>
+        <a href="#contact">Contato</a>
+      </nav>
+      <div class="menu-toggle" id="menuToggle">☰</div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Alavanque seu Negócio com <span>Tráfego Pago Estratégico</span></h1>
+        <p>Estratégias personalizadas para atrair mais clientes e aumentar suas vendas — sem desperdício de orçamento.</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn">Solicite sua consultoria</a>
+          <button class="btn btn-outline" id="quickAgendaBtn">Agendar reunião (Calendly)</button>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="https://eugestor.vercel.app/image/IMG 1.png" alt="Gestão de Tráfego Pago">
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section class="about">
+    <div class="container">
+      <h2>Sobre Meus Serviços</h2>
+      <p>Sou um gestor de tráfego apaixonado por resultados. Ofereço soluções completas em tráfego pago, desde a criação de estratégias até a otimização diária das campanhas. Meu objetivo é ajudar você a alcançar seus objetivos de negócio, atraindo mais clientes e aumentando suas vendas de forma eficiente e escalável.</p>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title">Serviços Oferecidos</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>🎯 Estratégias de Tráfego Pago</h3>
+          <p>Criação de estratégias personalizadas para alcançar seus objetivos com foco em conversão.</p>
+        </div>
+        <div class="service-card">
+          <h3>⚙️ Configuração de Contas</h3>
+          <p>Configuração completa de Meta Ads, Google Ads e pixels de conversão.</p>
+        </div>
+        <div class="service-card">
+          <h3>👥 Públicos Segmentados</h3>
+          <p>Criação de públicos altamente segmentados com alto potencial de conversão.</p>
+        </div>
+        <div class="service-card">
+          <h3>📈 Otimização Diária</h3>
+          <p>Monitoramento e ajustes contínuos para maximizar seu ROI.</p>
+        </div>
+        <div class="service-card">
+          <h3>🔍 Pesquisa de Concorrentes</h3>
+          <p>Análise completa dos anúncios e estratégias dos seus concorrentes.</p>
+        </div>
+        <div class="service-card">
+          <h3>📍 Anúncios Regionais</h3>
+          <p>Campanhas direcionadas apenas para quem está na sua região.</p>
+        </div>
+        <div class="service-card">
+          <h3>📱 Panfletagem Digital</h3>
+          <p>Alcance garantido com campanhas de alto impacto e radiação controlada.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <h2 class="section-title">O que Dizem Meus Clientes</h2>
+      <div class="testimonial-slider" id="testimonialSlider">
+        <div class="testimonial active">
+          <p>"O trabalho do gestor de tráfego foi fundamental para o crescimento do meu negócio. Aumento significativo nas vendas e otimização de custos."</p>
+          <strong>— João Silva, Loja de Roupas</strong>
+        </div>
+        <div class="testimonial">
+          <p>"Recomendo muito! Suporte excelente e resultados incríveis nas minhas campanhas. Agora tenho mais clientes e minhas vendas aumentaram muito."</p>
+          <strong>— Maria Souza, Clínica de Estética</strong>
+        </div>
+        <div class="testimonial">
+          <p>"O melhor investimento que fiz! Meu site está sempre aparecendo para as pessoas certas e as vendas aumentaram bastante."</p>
+          <strong>— Ana Paula, Confeitaria Artesanal</strong>
+        </div>
+      </div>
+      <div class="slider-controls">
+        <button id="prevBtn">❮</button>
+        <button id="nextBtn">❯</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Calendly Agendamento -->
+  <section class="calendly-section">
+    <div class="container">
+      <h2 class="section-title">Agende sua Consultoria Gratuita</h2>
+      <p style="text-align: center; margin-bottom: 30px;">Escolha um horário disponível para discutirmos como o tráfego pago pode alavancar seu negócio.</p>
+      <div class="calendly-inline-widget" 
+           data-url="https://calendly.com/carloseduardon410/30min" 
+           style="min-width: 320px; height: 700px;">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Entre em Contato</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <p><strong>📞</strong> (85) 98722-3840</p>
+          <p><strong>📧</strong> carloseduardon410@gmail.com</p>
+          <p><strong>📍</strong> Atendimento online para todo o Brasil</p>
+          <div class="social-links">
+            <a href="https://www.instagram.com/01carloscarneiro/" target="_blank"><i class="fab fa-instagram"></i> @01carloscarneiro</a> <br>
+            <a href="https://wa.me/5585987223840?text=Ol%C3%A1%2C%20vi%20o%20site%20e%20quero%20saber%20mais!" target="_blank"><i class="fab fa-whatsapp"></i> Fale no WhatsApp</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <input type="text" name="name" placeholder="Seu nome" required />
+          <input type="email" name="email" placeholder="Seu e-mail" required />
+          <input type="tel" name="phone" placeholder="Seu telefone" />
+          <select name="service" required>
+            <option value="" disabled selected>O que você precisa?</option>
+            <option value="Meta Ads">Meta Ads (Facebook/Instagram)</option>
+            <option value="Google Ads">Google Ads</option>
+            <option value="Análise de Concorrência">Análise de Concorrência</option>
+            <option value="Consultoria">Consultoria Personalizada</option>
+          </select>
+          <textarea name="message" placeholder="Sua mensagem" rows="5" required></textarea>
+          <button type="submit" class="btn">Enviar Mensagem</button>
+        </form>
+      </div>
+      <p id="formStatus" style="display: none; margin-top: 15px; text-align: center;"></p>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Carlos Eduardo. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante do WhatsApp -->
+  <a href="https://wa.me/5585987223840?text=Ol%C3%A1%2C%20quero%20saber%20como%20o%20tr%C3%A1fego%20pago%20pode%20ajudar%20meu%20neg%C3%B3cio!" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Popup de Lead Magnet -->
+  <div class="popup" id="leadPopup">
+    <div class="popup-content">
+      <span class="close-btn" id="closePopup">&times;</span>
+      <h3>Quer um Guia Gratuito?</h3>
+      <p>Receba nosso <strong>"7 Erros que Destroem Campanhas de Tráfego Pago"</strong> por e-mail!</p>
+      <input type="email" id="leadEmail" placeholder="Seu e-mail" required />
+      <button id="sendLead" class="btn">Receber Agora</button>
+    </div>
+  </div>
+
+  <!-- Calendly Script -->
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <script src="script.js"></script>
+</body>
+</html>
